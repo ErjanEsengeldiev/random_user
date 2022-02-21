@@ -52,7 +52,10 @@ class Body extends StatelessWidget {
             style: const TextStyle(color: Colors.white, fontSize: 20),
           ),
           const SizedBox(height: 20),
-          const TwoButtonsWidget(),
+          TwoButtonsWidget(
+              lat: user.results!.first.location!.coordinates!.latitude
+                  .toString(),
+              lnb: user.results!.first.location!.coordinates!.latitude!),
           const SizedBox(height: 20),
           FemailButtonsWidget(
             gender: user.results!.first.gender.toString(),
@@ -77,4 +80,4 @@ class Body extends StatelessWidget {
   }
 }
 
-String fafsas=' ';
+String fafsas = ' ';

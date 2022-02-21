@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_flutter_1/bloc/user_bloc.dart';
 import 'package:test_flutter_1/bloc/user_event.dart';
-import 'package:test_flutter_1/bloc/user_satate.dart';
+import 'package:test_flutter_1/bloc/user_state.dart';
 import 'package:test_flutter_1/pages/widgets/body_widget.dart';
 import 'package:test_flutter_1/services/user_repository.dart';
 

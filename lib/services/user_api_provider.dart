@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:test_flutter_1/models/user.dart';
+import 'package:test_flutter_1/models/user//user.dart';
 
 class UsersProvider {
   Future<User> getUser() async {
