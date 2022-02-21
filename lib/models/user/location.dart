@@ -1,5 +1,5 @@
-import 'package:test_flutter_1/models/street.dart';
-import 'package:test_flutter_1/models/time_zone.dart';
+import 'package:test_flutter_1/models/user/street.dart';
+import 'package:test_flutter_1/models/user/time_zone.dart';
 
 class Location {
   Street? street;

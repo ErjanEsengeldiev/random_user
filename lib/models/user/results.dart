@@ -1,9 +1,9 @@
-import 'package:test_flutter_1/models/dob.dart';
-import 'package:test_flutter_1/models/id.dart';
-import 'package:test_flutter_1/models/location.dart';
-import 'package:test_flutter_1/models/login.dart';
-import 'package:test_flutter_1/models/name.dart';
-import 'package:test_flutter_1/models/picture.dart';
+import 'package:test_flutter_1/models/user//dob.dart';
+import 'package:test_flutter_1/models/user//id.dart';
+import 'package:test_flutter_1/models/user//location.dart';
+import 'package:test_flutter_1/models/user//login.dart';
+import 'package:test_flutter_1/models/user//name.dart';
+import 'package:test_flutter_1/models/user//picture.dart';
 
 class Results {
   String? gender;

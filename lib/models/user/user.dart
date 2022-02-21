@@ -1,5 +1,5 @@
-import 'package:test_flutter_1/models/info.dart';
-import 'package:test_flutter_1/models/results.dart';
+import 'package:test_flutter_1/models/user//info.dart';
+import 'package:test_flutter_1/models/user//results.dart';
 
 class User {
   List<Results>? results;

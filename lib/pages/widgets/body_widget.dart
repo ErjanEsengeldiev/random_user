@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_flutter_1/bloc/user_bloc.dart';
 import 'package:test_flutter_1/bloc/user_event.dart';
-import 'package:test_flutter_1/models/user.dart';
+import 'package:test_flutter_1/models/user//user.dart';
 import 'package:test_flutter_1/pages/widgets/femail_widget.dart';
 import 'package:test_flutter_1/pages/widgets/two_buttons_widget.dart';
 
@@ -16,7 +16,7 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 50),
+      padding: const EdgeInsets.all(50),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -76,3 +76,5 @@ class Body extends StatelessWidget {
     );
   }
 }
+
+String fafsas=' ';
